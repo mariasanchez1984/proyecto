@@ -22,7 +22,7 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="logo">Logo <span>Empresa</span></h1>
+            <h1 class="logo">-Portfolio <span>María S Vielba-</span></h1>
         </div>
         <nav id="site-nav" class="site-nav">
             <ul>
