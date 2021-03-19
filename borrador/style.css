@@ -1,0 +1,232 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    background: #000;
+    font-size: 1.2rem;
+    line-height: 1.1em;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.menu {
+    
+    position: relative;
+    float: right;
+    margin-right: 150px;
+}
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 1px;
+    list-style: none;
+}
+.menu ul li {
+    padding-right: 1px;
+}
+.menu a {
+    display: block;
+    padding: 1em;
+    background-color: #557e7c;   
+    text-decoration: none;
+    color: #191C26;
+    border: 3px;
+    border-radius: 10px;
+}
+.menu a:hover {
+    background-color: #7fa9a7;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li ul li {
+    top: 100%;
+    padding: 1px;
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
+
+
+
+
+
+
+/*body {
+    background: moccasin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background: #000;
+    color: #fff;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 20px;
+    float: left;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: cornflowerblue;
+    transition: all .4s;
+    border-radius: 4px;
+    margin-bottom:20px;
+}
+
+.navegacion ul li a:hover {
+    color: blueviolet;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid cornflowerblue;
+    border-radius: 5px;
+    display: block;
+}
+
+
+
+.main {
+    padding: 10rem;
+}
+
+.footer {
+	display:table; 
+	padding-bottom:30px; 
+    width:100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 806px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    
+    .navegacion {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .navegacion ul {
+        display: none;
+    }
+
+    .navegacion ul.show {
+        display: block;
+    }
+
+    .navegacion ul li {
+        display: block;
+    }
+    
+    .navegacion ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all .4s;
+        border-radius: 4px;
+    }
+    
+    .navegacion ul li a:hover {
+        color: blueviolet;
+    }    
+}
+
+#backButton {
+    font-size: 20px;
+}
+
+
+
+<div class="container logo-nav-container">
+    <nav class="menu">
+	    <ul>
+		    <li class=""><a href="#"><i class="fas fa-laptop-house site-nav--icon"></i>Inicio</a></li>
+		    <li><a href="#"><i class="fas fa-file-code site-nav--icon"></i>Proyectos</a>
+			    <ul>
+				    <li><a href="#">Domestika</a></li>
+                    <li><a href="#">Enterprise Formación</a></li>
+				    <li><a href="#">Foro Training</a></li>
+			    </ul>
+		    </li>
+		    <li><a href="#"><i class="far fa-address-card site-nav--icon"></i>Sobre mi</a></li>
+		    <li><a href="#"><i class="fas fa-user-edit site-nav--icon"></i>Contacto</a></li>
+	    </ul>
+    </nav>
+    </div>
